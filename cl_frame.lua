@@ -17,7 +17,7 @@ PANEL.ActivePanel	= nil
 surface.CreateFont( "TCB_F4Menu_Big", {
 	font = "Trebuchet MS",
 	size = 28,
-	weight = 1000,
+	weight = 1200,
 	blursize = 0,
 	scanlines = 0,
 	antialias = true,

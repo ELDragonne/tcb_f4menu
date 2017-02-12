@@ -18,7 +18,7 @@ function PANEL:Init()
 	self.Paint = function( pnl, w, h )
 
 		draw.RoundedBox( 0, 0, 0, w - 0, h - 0, Color( 0, 0, 0, 100 ) )
-		draw.RoundedBox( 0, 2, 2, w - 4, h - 4, Color( 60, 60, 60, 255 ) )
+		draw.RoundedBox( 0, 2, 2, w - 4, h - 4, Color( 97, 97, 97, 255 ) )
 
 	end
 
@@ -58,21 +58,22 @@ function PANEL:Init()
 	self.join.DoClick = function() end
 	self.join.Paint = function( pnl, w, h )
 
-		draw.RoundedBox( 0, 0, 0, w - 0, h - 0, Color( 0, 0, 0, 100 ) )
-		draw.RoundedBox( 0, 2, 2, w - 4, h - 4, Color( 46, 204, 113, 255 ) )
-		draw.RoundedBox( 0, 4, 4, w - 8, h - 8, Color( 39, 174, 96, 255 ) )
+		draw.RoundedBox( 0, 0, 0, w - 0, h - 0, Color( 97, 97, 97, 255 ) )
+		draw.RoundedBox( 0, 2, 2, w - 4, h - 4, Color( 0, 200, 210, 255 ) )
+		draw.RoundedBox( 0, 4, 4, w - 8, h - 8, Color( 0, 180, 189, 255 ) )
 
 		if self.join.Hover == true then
 			draw.RoundedBox( 0, 4, 4, w - 8, h - 8, Color( 0, 0, 0, 50 ) )
 		end
 
 		if self.join.Status == true then
-			draw.RoundedBox( 0, 2, 2, w - 4, h - 4, Color( 149, 165, 166, 255 ) )
-			draw.RoundedBox( 0, 4, 4, w - 8, h - 8, Color( 127, 140, 141, 255 ) )
+			draw.RoundedBox( 0, 0, 0, w - 0, h - 0, Color( 97, 97, 97, 255 ) )
+			draw.RoundedBox( 0, 2, 2, w - 4, h - 4, Color( 243, 0, 9, 255 ) )
+			draw.RoundedBox( 0, 4, 4, w - 8, h - 8, Color( 237, 8, 16, 255 ) )
 		end
 
-		draw.DrawText( "Become Job", "Trebuchet24", w / 2 + 1, 5 + 1, Color( 0, 0, 0, 255 ), 1 )
-		draw.DrawText( "Become Job", "Trebuchet24", w / 2 + 0, 5 + 0, Color( 255, 255, 255, 255 ), 1 )
+		draw.DrawText( "Rejoindre", "Trebuchet24", w / 2 + 1, 5 + 1, Color( 0, 0, 0, 255 ), 1 )
+		draw.DrawText( "Rejoindre", "Trebuchet24", w / 2 + 0, 5 + 0, Color( 244, 223, 145, 255 ), 1 )
 
 	end
 

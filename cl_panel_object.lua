@@ -17,8 +17,7 @@ function PANEL:Init()
 	self.Paint = function() end
 
 	self.VBar.Paint 			= function( pnl, w, h ) draw.RoundedBox( 4, 0, 0, w, h, Color( 0, 0, 0, 50) ) end 
-	self.VBar.btnUp.Paint 		= function( pnl, w, h ) draw.RoundedBox( 4, 2, 2, w - 4, h - 4, Color( 255, 255, 255, 25 ) ) draw.DrawText( "▲", "HudHintTextSmall", 3, 2, Color( 255, 255, 255, 255 ) ) end
-	self.VBar.btnDown.Paint 	= function( pnl, w, h ) draw.RoundedBox( 4, 2, 2, w - 4, h - 4, Color( 255, 255, 255, 25 ) ) draw.DrawText( "▼", "HudHintTextSmall", 3, 2, Color( 255, 255, 255, 255 ) ) end
+	self.VBar.btnUp.Paint 		= function( pnl, w, h ) draw.RoundedBox( 4, 2, 2, w - 4, h - 4, Color( 255, 255, 255, 25 ) ) draw.DrawText( "", "HudHintTextSmall", 3, 2, Color( 255, 255, 255, 255 ) ) end
 	self.VBar.btnGrip.Paint 	= function( pnl, w, h ) draw.RoundedBox( 4, 2, 2, w - 4, h - 4, Color( 255, 255, 255, 25 ) ) end
 
 	-- Dirty Fix

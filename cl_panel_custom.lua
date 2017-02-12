@@ -12,7 +12,7 @@ local PANEL = {}
 -- Panel
 function PANEL:Init()
 
-	self:SetSize( 650 - 2, 620 - 2 )
+	self:SetSize( 850 - 2, 820 - 2 )
 	self:SetPos( 250, 2 )
 	self.Paint = function()
 
@@ -43,7 +43,7 @@ local PANEL = {}
 -- Panel
 function PANEL:Init()
 
-	self:SetSize( 650 - 2, 620 - 2 )
+	self:SetSize( 850 - 2, 820 - 2 )
 	self:SetPos( 250, 2 )
 	self.Paint = function()
 
@@ -74,7 +74,7 @@ local PANEL = {}
 -- Panel
 function PANEL:Init()
 
-	self:SetSize( 650 - 2, 620 - 2 )
+	self:SetSize( 850 - 2, 820 - 2 )
 	self:SetPos( 250, 2 )
 	self.Paint = function()
 
@@ -105,7 +105,7 @@ local PANEL = {}
 -- Panel
 function PANEL:Init()
 
-	self:SetSize( 650 - 2, 620 - 2 )
+	self:SetSize( 850 - 2, 820 - 2 )
 	self:SetPos( 250, 2 )
 	self.Paint = function()
 
